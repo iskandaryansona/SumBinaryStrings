@@ -32,27 +32,7 @@ int main()
 	int sum = aa + bb;
 	cout<<ConverttoBinary(sum);
 
-	/*int n; cin >> n;
-	char* sona = new char[n];
-	for (int i = 0; i < n; i++) {
-		cin >> sona[i];
-	}
-	for (int i = 0; i < n; i++) {
-		cout << sona[i];
-	}
-
-	int len;
-	std::cin >> len;
-
-	char * buffer = (char*)malloc(len + 1);          // динамическое выделение памяти под символьную строку
-	if (buffer == NULL) exit(1);                       // если выделение памяти не выполнилось, завершить программу
-
-	for (int ix = 0; ix < len; ix++)
-		buffer[ix] = rand() % 26 + 'a';
-	buffer[len] = '\0';                                 // нулевой элемент
-
-	std::cout << "Случайная строка: " << buffer << "n";
-	free(buffer);    */
+	
 	system("pause");
 	return 0;
 }
